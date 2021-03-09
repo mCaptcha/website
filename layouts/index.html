@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | absURL }}" role="button">Get started</a>
+      <p class="meta">Libre software <a href="https://github.com/mCaptcha">GitHub</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Privacy focused</h2>
+        <p>Doesn't track, doesn't profile your users.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Robust and Accurate</h2>
+        <p>Got users behind <a href="https://en.wikipedia.org/wiki/Network_address_translation">NATs</a>? No issues. We don't use IP address for rate-liming. NAT or not you get the mCaptcha experience.
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Best-in-class UX</h2>
+        <p>mCaptcha is silent, so silent that your users won't even feel it. No more anoying imgaes, no more helping for Big Brothers with their ML stuff</p>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Defend like castles</h2>
+        <p>Our <a href="https://en.wikipedia.org/wiki/Proof_of_work">PoW</a>-based solution defends fiersly. mCaptcha makes attacking your site more experience than what it will take for you to respond to the attacker's requests</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Libre Software</h2>
+        <p>Client libraries are licensed using properiatary-friendly free software licenses but the core is <a href="http://www.gnu.org/licenses/agpl-3.0">AGPL'd</a>. We believe this is a tech that can change the way the web works so mCaptcha will always be free</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">xCaptcha drop-in replacement</h2>
+        <p>Already using a captcha solution? No worries, our APIs are compatible with reCapthca and hCaptcha!</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
