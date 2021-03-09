@@ -1,7 +1,8 @@
 # Meta Data for SEO
 
 ## Homepage
-baseurl = "/"
+baseurl = "https://mcaptcha.org/"
+baseURL = "https://mcaptcha.org/"
 title = "mCaptcha"
 titleSeparator = "-"
 titleAddition = "mCaptcha"
