@@ -17,4 +17,5 @@ Documentation for the library used in mCaptcha core.
 
 ## Versions
 
-- [0.1.0](/api-docs/m_captcha/0.1.0/m_captcha)
+- [master-branch](https://mcaptcha.github.io/mCaptcha/m_captcha/index.html)
+- [0.1.0](/api-docs/m_captcha/0.1.0/m_captcha/index.html)

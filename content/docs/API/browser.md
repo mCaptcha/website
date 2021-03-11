@@ -18,4 +18,5 @@ WebAssembly library which generates Proofs of Work for mCaptcha systems.
 
 ## Versions
 
-- [0.1.0](/api-docs/browser/0.1.0/mCaptcha_browser/)
+- [master-branch](https://mcaptcha.github.io/browser/mCaptcha_browser/index.html)
+- [0.1.0](/api-docs/browser/0.1.0/mCaptcha_browser/index.html)

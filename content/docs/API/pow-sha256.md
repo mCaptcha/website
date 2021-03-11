@@ -29,8 +29,9 @@ mostly just stylistic/ease of use improvements.
 
 ## Versions
 
-- [0.1.0](/api-docs/pow_sha256/0.1.0/pow_sha256)
-- [0.2.0](/api-docs/pow_sha256/0.2.0/pow_sha256/)
+- [master-branch](https://mcaptcha.github.io/pow_sha256/pow_sha256/index.html)
+- [0.1.0](/api-docs/pow_sha256/0.1.0/pow_sha256/index.html)
+- [0.2.0](/api-docs/pow_sha256/0.2.0/pow_sha256/index.html)
 
 ## Changelog
 Changelog is available at the project's [repository](https://github.com/mCaptcha/pow_sha256/blob/master/CHANGELOG.md)
