@@ -3,7 +3,7 @@ title: "pow_sha256"
 description: "API documenttion for PoW Library used in mCaptcha"
 lead: ""
 date: 2021-03-11
-lastmod: 2021-03-11 10:26
+lastmod: 2021-04-01 22:57
 draft: false
 images: []
 menu:
@@ -30,8 +30,10 @@ mostly just stylistic/ease of use improvements.
 ## Versions
 
 - [master-branch](https://mcaptcha.github.io/pow_sha256/pow_sha256/index.html)
-- [0.1.0](/api-docs/pow_sha256/0.1.0/pow_sha256/index.html)
+- [0.2.1](/api-docs/pow_sha256/0.2.1/pow_sha256/index.html)
 - [0.2.0](/api-docs/pow_sha256/0.2.0/pow_sha256/index.html)
+- [0.1.0](/api-docs/pow_sha256/0.1.0/pow_sha256/index.html)
 
 ## Changelog
-Changelog is available at the project's [repository](https://github.com/mCaptcha/pow_sha256/blob/master/CHANGELOG.md)
+Changelog is available at the project's
+[repository](https://github.com/mCaptcha/pow_sha256/blob/master/CHANGELOG.md)
