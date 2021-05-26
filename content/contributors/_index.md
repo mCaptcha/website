@@ -1,10 +1,10 @@
 ---
 title: "Contributors"
-description: "The Doks contributors."
-date: 2020-10-06T08:50:29+00:00
-lastmod: 2020-10-06T08:50:29+00:00
+description: "The mCaptcha contributors."
+date: 2021-05-26
+lastmod: 2021-05-26
 draft: false
 images: []
 ---
 
-The Doks contributors.
+The mCaptcha contributors.

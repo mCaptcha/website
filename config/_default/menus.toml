@@ -32,6 +32,12 @@
   url = "/community/"
   weight = 30
 
+[[main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 40
+
+
 
 
 [[social]]
