@@ -6,7 +6,7 @@ date: 2021-05-26
 lastmod: 2021-05-26
 draft: false
 weight: 50
-images: ["say-hello-to-doks.png"]
+images: ["icon.png"]
 contributors: ["Aravinth Manivannan"]
 ---
 
