@@ -20,6 +20,9 @@
 				</nav>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
+      {{ if .Params.lastEdited -}}
+          {{ partial "main/last-edited.html" . -}}
+      {{ end -}}
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
 			{{ partial "main/headline-hash.html" .Content }}
 			{{ if .Site.Params.editPage -}}

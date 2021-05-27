@@ -7,6 +7,7 @@ draft: false
 identifiers: "security"
 layout: "security"
 toc: true
+lastEdited: true
 ---
 
 Security is at the heart of mCaptcha. If you find any discrepancies in

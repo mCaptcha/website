@@ -2,8 +2,8 @@
 title: "Donate"
 description: "Donate to mCaptcha"
 date: 2021-05-27
-lastmod: 2021-05-27
 draft: false
+lastEdited: true
 ---
 
 mCaptcha is a small operation that is self-funded. At the time of
