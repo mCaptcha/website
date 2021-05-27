@@ -15,7 +15,7 @@ Some of the payment options are anonymous. You can optionally send
 me([@realaravinth](/contributors/aravinth-manivannan/)) so that I can
 thank you :)
 
-## XMR:
+## XMR
 
 ```
 85QAHsHqg4WfA6G7ycXc7U4LmrSLCQARv6H9p3AYjf8o8YP
@@ -28,7 +28,7 @@ WH3ngC8Zi7bUYGUifdXb54Xuz41kcu2pqgGFuAYp3VSh5JsR
     caption="<em>Monero address QR code</em>"
 >}}
 
-## Liberapay:
+## Liberapay
 
 <script src="https://liberapay.com/realaravinth/widgets/button.js"></script>
 

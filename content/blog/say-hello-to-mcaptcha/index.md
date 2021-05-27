@@ -70,7 +70,7 @@ code is freely available(both as in freedom and beers) at [our
 GitHub](https://github.com/mCaptcha/).
 
 
-## Resources:
+## Resources
 
 - [guard](https://github.com/mCaptcha/guard) - mCaptcha backend `AGPL`
 - [frontend library](https://github.com/mCaptcha/browser) - mCaptcha frontend library. `MIT/APACHE`

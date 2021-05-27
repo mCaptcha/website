@@ -75,6 +75,7 @@
 [[footer]]
   name = "Security"
   url = "/security"
+  identifier = "security"
   weight = 10
 
 [[footer]]
