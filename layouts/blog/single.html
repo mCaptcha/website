@@ -19,13 +19,18 @@
 					</ol>
 				</nav>
 			{{ end }}
-			<h1>{{ .Title }}</h1>
-			<p class="lead">{{ .Params.lead | safeHTML }}</p>
-			{{ partial "main/headline-hash.html" .Content }}
+ <article>
+      <div class="blog-header">
+        <h1>{{ .Title }}</h1>
+        {{ partial "main/blog-meta.html" . }}
+      </div>
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      {{ .Content }}
+    </article>
+			{{ partial "main/docs-navigation.html" . }}
 			{{ if .Site.Params.editPage -}}
 				{{ partial "main/edit-page.html" . }}
 			{{ end -}}
-			{{ partial "main/docs-navigation.html" . }}
 		</main>
 	</div>
 {{ end }}
