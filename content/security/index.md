@@ -11,18 +11,19 @@ toc: true
 
 Security is at the heart of mCaptcha. If you find any discrepancies in
 our software(see listing on our [GitHub](https://github.com/mCaptcha),
-services available at
+[services available](#scope))
 
 ## Rules:
 
 ### Before you start
 
-- Check the list of domains that are in scope for the Bug Bounty program
+- Check the list of domains that are in scope for security research
   and the list of targets for useful information for getting started.
 
 - Check the list of bugs that have been classified as ineligible.
 
-- Check our changelog(on our GitHub repositories) for recently launched features.
+- Check our changelog(in our GitHub repositories) for recently launched
+  features.
 
 - Never attempt non-technical attacks such as social engineering,
   phishing, or physical attacks against our employees, users, or
@@ -36,16 +37,16 @@ me([@realaravinth](/contributors/aravinth-manivannan/)) at
 
 - Do not impact other users with your testing, this includes testing
   vulnerabilities with CAPTCHA credentials and account credentials
-  organizations you do not own. If you are attempting to find an
+  of accounts you do not own. If you are attempting to find an
   authorization bypass, you must use accounts you own.
 
 - The following are never allowed for research. We may
   suspend your mCaptcha account for:
 
   - Performing distributed denial of service (DDoS) or other volumetric
-    attacks. Sure, we are a DDos protection company, but with sufficient
+    attacks. Sure, we are a DDoS protection organisation, but with sufficient
     resources and motivation, it is possible to take us down. For this
-    reason, we request you to not hammer us.
+    reason, we request you to not hurt us.
 
   - Spamming content Large-scale vulnerability scanners, scrapers, or
     automated tools which produce excessive amounts of traffic.
@@ -59,10 +60,9 @@ me([@realaravinth](/contributors/aravinth-manivannan/)) at
   these rules:
 
   - There are no limits for researching denial of service
-    vulnerabilities against your own instance of mCaptcha server.
-
-    We strongly recommend/prefer this method for researching
-    denial of service issues.
+    vulnerabilities against your own instance of mCaptcha server. **We
+    strongly recommend/prefer this method for researching denial of
+    service issues.**
 
   - If you choose to test on mCaptcha proper (i.e.
     [https://mcaptcha.org](https://mcaptcha.org) or [https://mcaptcha.io](https://mcaptcha.io)):
@@ -101,12 +101,12 @@ me([@realaravinth](/contributors/aravinth-manivannan/)) at
 
 ### Reporting your vulnerability
 
-- Please include written instructions for reproducing the
+- Reports must include written instructions for reproducing the
   vulnerability.
 
-- When reporting vulnerabilities you must keep all information on in our
-  email correspondence. Do not post information to video-sharing or
-  pastebin sites.
+- When reporting vulnerabilities you must keep all information on
+  restricted to email correspondence with us. Do not post information to
+  video-sharing or pastebin sites.
 
 - For vulnerabilities involving personally identifiable information,
   please explain the kind of PII you believe is exposed and limit the
@@ -121,10 +121,10 @@ me([@realaravinth](/contributors/aravinth-manivannan/)) at
 
 ### Legal safe harbor:
 
-We currently don't have any legal policies in place but you can rest
-assured that as long as your research adheres to the above rules, your
-security research and vulnerability disclosure activities are considered
-as "authorized".
+We currently don't have any legal policies in place but rest assured
+that as long as your research adheres to the above rules, your security
+research and vulnerability disclosure activities are considered as
+"authorized".
 
 A detailed policy based on this sentiment is in the works.
 
