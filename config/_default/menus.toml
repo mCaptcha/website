@@ -23,21 +23,25 @@
   weight = 10
 
 [[main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+
+[[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Community"
   url = "/community/"
-  weight = 30
+  weight = 10
 
 [[main]]
   name = "Contact"
   url = "/contact/"
-  weight = 40
-
-
+  weight = 10
 
 
 [[social]]
@@ -47,7 +51,33 @@
   post = "v0.1.0"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+
+[[footer]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[footer]]
+  name = "Donate"
+  url = "/donate"
+  weight = 10
+
+[[footer]]
+  name = "Privacy"
+  url = "/privacy-policy/"
+  weight = 10
+
+[[footer]]
+  name = "Status"
+  url = "https://stats.uptimerobot.com/GK7VLFJnBl"
+  weight = 10
+
+[[footer]]
+  name = "Security"
+  url = "/security"
+  weight = 10
+
+[[footer]]
+  name = "Thanks"
+  url = "/thanks"
+  weight = 10
