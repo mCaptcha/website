@@ -11,7 +11,7 @@ docsRepo = "https://github.com/mCaptcha/website"
 editPage = true
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
+images = ["icon.png"]
 ogLocale = "en_US"
 
 ## Sitelinks Search Box
