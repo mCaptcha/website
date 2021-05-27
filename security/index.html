@@ -3,26 +3,28 @@
 <button id=mode class="btn btn-link order-2 order-md-4" type=button aria-label="Toggle mode">
 <span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button><ul class="navbar-nav social-nav order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/mCaptcha><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><span class="ms-2 visually-hidden">GitHub</span></a></li></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class=nav-item><a class=nav-link href=/about/>About</a></li><li class=nav-item><a class=nav-link href=/blog/>Blog</a></li><li class=nav-item><a class=nav-link href=/community/>Community</a></li><li class=nav-item><a class=nav-link href=/contact/>Contact</a></li><li class=nav-item><a class=nav-link href=/docs/prologue/introduction/>Docs</a></li></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input id=userinput class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded"></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#rules>Rules:</a><ul><li><a href=#before-you-start>Before you start</a></li><li><a href=#performing-your-research>Performing your research</a></li><li><a href=#handling-personally-identifiable-information-pii>Handling personally identifiable information (PII)</a></li><li><a href=#reporting-your-vulnerability>Reporting your vulnerability</a></li><li><a href=#legal-safe-harbor>Legal safe harbor:</a></li></ul></li><li><a href=#scope>Scope:</a><ul><li><a href=#mcaptchaorg>mcaptcha.org</a></li><li><a href=#mcaptchaio>mcaptcha.io</a></li></ul></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Security</h1><p class=lead></p><p>Security is at the heart of mCaptcha. If you find any discrepancies in
 our software(see listing on our <a href=https://github.com/mCaptcha>GitHub</a>,
-services available at</p><h2 id=rules>Rules:<a href=#rules class=anchor aria-hidden=true>#</a></h2><h3 id=before-you-start>Before you start<a href=#before-you-start class=anchor aria-hidden=true>#</a></h3><ul><li><p>Check the list of domains that are in scope for the Bug Bounty program
-and the list of targets for useful information for getting started.</p></li><li><p>Check the list of bugs that have been classified as ineligible.</p></li><li><p>Check our changelog(on our GitHub repositories) for recently launched features.</p></li><li><p>Never attempt non-technical attacks such as social engineering,
+<a href=#scope>services available</a>)</p><h2 id=rules>Rules:<a href=#rules class=anchor aria-hidden=true>#</a></h2><h3 id=before-you-start>Before you start<a href=#before-you-start class=anchor aria-hidden=true>#</a></h3><ul><li><p>Check the list of domains that are in scope for security research
+and the list of targets for useful information for getting started.</p></li><li><p>Check the list of bugs that have been classified as ineligible.</p></li><li><p>Check our changelog(in our GitHub repositories) for recently launched
+features.</p></li><li><p>Never attempt non-technical attacks such as social engineering,
 phishing, or physical attacks against our employees, users, or
 infrastructure.</p></li></ul><p>When in doubt, contact
 me(<a href=/contributors/aravinth-manivannan/>@realaravinth</a>) at
 <a href=mailto:realaravinth@batsense.net>realaravinth@batense.net</a>.</p><h3 id=performing-your-research>Performing your research<a href=#performing-your-research class=anchor aria-hidden=true>#</a></h3><ul><li><p>Do not impact other users with your testing, this includes testing
 vulnerabilities with CAPTCHA credentials and account credentials
-organizations you do not own. If you are attempting to find an
+of accounts you do not own. If you are attempting to find an
 authorization bypass, you must use accounts you own.</p></li><li><p>The following are never allowed for research. We may
 suspend your mCaptcha account for:</p><ul><li><p>Performing distributed denial of service (DDoS) or other volumetric
-attacks. Sure, we are a DDos protection company, but with sufficient
+attacks. Sure, we are a DDoS protection organisation, but with sufficient
 resources and motivation, it is possible to take us down. For this
-reason, we request you to not hammer us.</p></li><li><p>Spamming content Large-scale vulnerability scanners, scrapers, or
+reason, we request you to not hurt us.</p></li><li><p>Spamming content Large-scale vulnerability scanners, scrapers, or
 automated tools which produce excessive amounts of traffic.</p><p>Note: We do allow the use of automated tools so long as they do
 not produce excessive amounts of traffic. For example, running
 one nmap scan against one host is allowed, but sending 65,000
 requests in two minutes using Burp Suite Intruder is excessive.</p></li></ul></li><li><p>Researching denial-of-service attacks is allowed only if you follow
 these rules:</p><ul><li><p>There are no limits for researching denial of service
-vulnerabilities against your own instance of mCaptcha server.</p><p>We strongly recommend/prefer this method for researching
-denial of service issues.</p></li><li><p>If you choose to test on mCaptcha proper (i.e.
+vulnerabilities against your own instance of mCaptcha server. <strong>We
+strongly recommend/prefer this method for researching denial of
+service issues.</strong></p></li><li><p>If you choose to test on mCaptcha proper (i.e.
 <a href=https://mcaptcha.org>https://mcaptcha.org</a> or <a href=https://mcaptcha.io>https://mcaptcha.io</a>):</p><ul><li>Research must be performed using credentials you own.</li><li>Stop immediately if you believe you have affected the
 availability of our services. Don’t worry about demonstrating
 the full impact of your vulnerability, our team
@@ -35,20 +37,20 @@ containing PII as soon as possible. We may ask you to sign a
 certificate of deletion and confidentiality agreement regarding the
 exact information you accessed. We may ask you for the usernames and
 IP addresses used during your testing to assess the impact of the
-vulnerability.</p></li></ul><h3 id=reporting-your-vulnerability>Reporting your vulnerability<a href=#reporting-your-vulnerability class=anchor aria-hidden=true>#</a></h3><ul><li><p>Please include written instructions for reproducing the
-vulnerability.</p></li><li><p>When reporting vulnerabilities you must keep all information on in our
-email correspondence. Do not post information to video-sharing or
-pastebin sites.</p></li><li><p>For vulnerabilities involving personally identifiable information,
+vulnerability.</p></li></ul><h3 id=reporting-your-vulnerability>Reporting your vulnerability<a href=#reporting-your-vulnerability class=anchor aria-hidden=true>#</a></h3><ul><li><p>Reports must include written instructions for reproducing the
+vulnerability.</p></li><li><p>When reporting vulnerabilities you must keep all information on
+restricted to email correspondence with us. Do not post information to
+video-sharing or pastebin sites.</p></li><li><p>For vulnerabilities involving personally identifiable information,
 please explain the kind of PII you believe is exposed and limit the
 amount of PII data included in your bug report. For textual
 information and screenshots, please only include redacted data in your
 bug report.</p></li><li><p>During the course of an investigation, it may take time to resolve
 the issue you have reported. We ask that you refrain from publicly
 disclosing details regarding an issue you’ve reported until the fix has
-been publicly made available.</p></li></ul><h3 id=legal-safe-harbor>Legal safe harbor:<a href=#legal-safe-harbor class=anchor aria-hidden=true>#</a></h3><p>We currently don&rsquo;t have any legal policies in place but you can rest
-assured that as long as your research adheres to the above rules, your
-security research and vulnerability disclosure activities are considered
-as &ldquo;authorized&rdquo;.</p><p>A detailed policy based on this sentiment is in the works.</p><h2 id=scope>Scope:<a href=#scope class=anchor aria-hidden=true>#</a></h2><p>mCaptcha runs a number of services. Only domains listed below are are
+been publicly made available.</p></li></ul><h3 id=legal-safe-harbor>Legal safe harbor:<a href=#legal-safe-harbor class=anchor aria-hidden=true>#</a></h3><p>We currently don&rsquo;t have any legal policies in place but rest assured
+that as long as your research adheres to the above rules, your security
+research and vulnerability disclosure activities are considered as
+&ldquo;authorized&rdquo;.</p><p>A detailed policy based on this sentiment is in the works.</p><h2 id=scope>Scope:<a href=#scope class=anchor aria-hidden=true>#</a></h2><p>mCaptcha runs a number of services. Only domains listed below are are
 eligible for security research. Any mCaptcha-owned domains not listed
 below are <em>not</em> in scope and are <em>not</em> covered by our <a href=./#legal-safe-harbor>legal safe
 harbor</a></p><h3 id=mcaptchaorg>mcaptcha.org<a href=#mcaptchaorg class=anchor aria-hidden=true>#</a></h3><ul><li>mcaptcha.org</li><li>demo.mcaptcha.org</li><li>demo2.mcaptcha.org</li></ul><h3 id=mcaptchaio>mcaptcha.io<a href=#mcaptchaio class=anchor aria-hidden=true>#</a></h3><ul><li>mcaptcha.io</li></ul><p class=edit-page><a href=https://github.com/mCaptcha/website/blob/master/content/security/index.md><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828.0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>Edit this page on GitHub</a></p></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://gohugo.io/>Hugo</a>, and <a href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item><a href=/about/>About</a></li><li class=list-inline-item><a href=/donate>Donate</a></li><li class=list-inline-item><a href=/privacy-policy/>Privacy</a></li><li class=list-inline-item><a href=/security>Security</a></li><li class=list-inline-item><a href=https://stats.uptimerobot.com/GK7VLFJnBl>Status</a></li><li class=list-inline-item><a href=/thanks>Thanks</a></li></ul></div></div></div></footer><script src=/main.min.db67f0caa6a5788b691b9509981d6e5943f4b8d829170a674f468d4b23671ce4017c47a0a22116a8fc2f2de556c8b48f1afecd86707066f2f022c5dd83e8ea3c.js integrity="sha512-22fwyqaleItpG5UJmB1uWUP0uNgpFwpnT0aNSyNnHOQBfEegoiEWqPwvLeVWyLSPGv7NhnBwZvLwIsXdg+jqPA==" crossorigin=anonymous defer></script><script src=/index.min.6c5c4982ce0ae1f88212e0cba5a6111cc7d16119ec59cb56f8554ea720aa7e5937f6bfb0d7ce366cd2bdebf6e2014c80a27adfb44e9e7175b253e2010156b73e.js integrity="sha512-bFxJgs4K4fiCEuDLpaYRHMfRYRnsWctW+FVOpyCqflk39r+w1842bNK96/biAUyAonrftE6ecXWyU+IBAVa3Pg==" crossorigin=anonymous defer></script></body></html>
