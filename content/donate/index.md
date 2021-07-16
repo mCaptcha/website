@@ -8,12 +8,12 @@ lastEdited: true
 
 mCaptcha is a small operation that is self-funded. At the time of
 writing, we are not backed by any venture capitals. If you like
-mCaptcha, please consider donating. Your donations will will go a long
+mCaptcha, please consider donating. Your donations will go a long
 way in supporting us.
 
 Some of the payment options are anonymous. You can optionally send
-me([@realaravinth](/contributors/aravinth-manivannan/)) so that I can
-thank you :)
+me([@realaravinth](/contributors/aravinth-manivannan/)) an email so that
+I can thank you :)
 
 ## XMR
 
@@ -23,10 +23,11 @@ WH3ngC8Zi7bUYGUifdXb54Xuz41kcu2pqgGFuAYp3VSh5JsR
 ```
 
 {{< img
-    src="mcptcha-donations-monero-address-qr.png"
-    alt="Monero address QR code"
-    caption="<em>Monero address QR code</em>"
->}}
+src="mcptcha-donations-monero-address-qr.png"
+alt="Monero address QR code"
+caption="<em>Monero address QR code</em>"
+
+> }}
 
 ## Liberapay
 
