@@ -22,12 +22,7 @@ I can thank you :)
 WH3ngC8Zi7bUYGUifdXb54Xuz41kcu2pqgGFuAYp3VSh5JsR
 ```
 
-{{< img
-src="mcptcha-donations-monero-address-qr.png"
-alt="Monero address QR code"
-caption="<em>Monero address QR code</em>"
-
-> }}
+{{% img src="mcptcha-donations-monero-address-qr.png" alt="Monero address QR code" caption="<em>Monero address QR code</em>" %}}
 
 ## Liberapay
 
