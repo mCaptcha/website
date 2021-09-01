@@ -26,3 +26,11 @@
 .blog-footer {
   text-align: center;
 }
+
+.lead {
+  color: #5d2f86;
+}
+
+body.dark .lead {
+  color: #8ed6fb;
+}
