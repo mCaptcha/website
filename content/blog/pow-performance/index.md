@@ -22,8 +22,10 @@ wouldn't offer proper protection against bots.
 Malicious bots(the ones that wreak havoc), run native code which is
 capable of running in a multi-threaded context. This creates an unfair
 advantage for crackers using these bots over legitimate users, who
-usually | browsers to access a website. I wanted to see how much of
-an advantage a native program would have over our WASM library.
+usually use browsers to access a website.
+
+I wanted to see how much of an advantage a native program would have
+over our WASM library.
 
 ## Benchmark tools
 
@@ -110,8 +112,18 @@ I ran the tests on both Firefox and Chromium to compare results
 
 At the highest difficulty factor, the native implementation was a almost second
 faster than the WASM library. But the fact that both of them were able
-to run to completion in under 5 seconds is impressive.
+to run to completion in under 5 seconds is impressive!
 
 So, in my opinion, native implementation is only slightly faster than
 the WASM library and for all intents and purposes, this shouldn't matter
 much.
+
+---
+
+P.S Work is underway to benchmark multiple platforms. A detailed report
+will be published when that data is available.
+
+For this post, I asked some of my friends to run the tests on their
+computers. The results slightly varied but even the slowest case
+generated proof for 4500000 difficulty(the highest in this test), in under
+15 seconds!
