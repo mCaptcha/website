@@ -1,7 +1,7 @@
 ---
 title: "Say hello to mCaptcha"
 description: "Introducing mCaptcha, a kickass CAPTCHA systems that gives (DDoS) attackers a run for their money. Oh and UX is great too!"
-lead: "We are mCaptcha. We build kickass CAPTCHA systems that gives (DDoS) attackers a run for their money. And we do all of this without tracking your users. Oh and did I mention our UX is great?"
+lead: "We are mCaptcha. We build kickass CAPTCHA systems that give (DDoS) attackers a run for their money. And we do all of this without tracking your users. Oh and did I mention our UX is great?"
 date: 2021-05-26
 lastmod: 2021-05-26
 draft: false

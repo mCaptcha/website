@@ -2,9 +2,9 @@
 title: "PoW performance"
 description: "PoW performance of native and WASM implementations. Does
 the native implementation have and edge over the WASM library?"
-lead: "We are mCaptcha. We build kickass CAPTCHA systems that gives (DDoS) attackers a run for their money. And we do all of this without tracking your users. Oh and did I mention our UX is great?"
-date: 2021-05-26
-lastmod: 2021-05-26
+lead: "We are mCaptcha. We build kickass CAPTCHA systems that give (DDoS) attackers a run for their money. And we do all of this without tracking your users. Oh and did I mention our UX is great?"
+date: 2021-09-01
+lastmod: 2021-09-01
 draft: false
 weight: 50
 images: ["icon.png"]
