@@ -27,4 +27,4 @@ There are two main ways to get started with mCaptcha:
 
 ### Self-hosted
 
-One page summary of how to start a new Doks project. [Quick Start →](../self-hosted/introduction)
+One page summary of how to start a new Doks project. [Quick Start →](../self-hosted/getting-started)
