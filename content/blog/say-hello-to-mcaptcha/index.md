@@ -10,7 +10,7 @@ images: ["icon.png"]
 contributors: ["Aravinth Manivannan"]
 ---
 
-At mCaptcha, we believe in digital freedom and privacy and so we built an
+At mCaptcha, we believe in digital freedom and privacy and so we built a
 [proof-of-work](https://en.wikipedia.org/wiki/Proof_of_work) based
 CAPTCHA system that doesn't track. Seriously, no tracking. But that
 isn't the killer feature, our system doesn't require the user to
