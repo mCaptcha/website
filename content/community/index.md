@@ -17,4 +17,4 @@ Write to me at [realaravinth@batsense.net](mailto:realaravinth@batsense.net)!
 
 ## Bug reports
 
-We GitHub for managing tickets
+We use GitHub for managing tickets
