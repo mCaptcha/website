@@ -11,6 +11,12 @@ images: []
 
 Come say hi at our [Matrix community](https://matrix.to/#/+mcaptcha:matrix.batsense.net)!
 
+## Official Twitter handle
+
+The project also has a twitter twitter presence at [@m_captcha(Nitter
+hyperlink)](https://twitter.com/m_captcha/). This space is used in
+addition to the blog to post short updates.
+
 ## Lead developer email
 
 Write to me at [realaravinth@batsense.net](mailto:realaravinth@batsense.net)!
