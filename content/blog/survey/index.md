@@ -13,6 +13,9 @@ contributors: ["Aravinth Manivannan"]
 
 **Survey link:** [https://survey.mcaptcha.org/survey/campaigns/b717e51e-24d4-4ab6-912f-de2dfe3ce1fe/about](https://survey.mcaptcha.org/survey/campaigns/b717e51e-24d4-4ab6-912f-de2dfe3ce1fe/about)
 
+**NOTE:** The survey(at least, the lucky draw is temporarily suspended
+due to some logistical reasons. Apologies for any inconvenience caused.
+
 mCaptcha relies on a
 [proof-of-work(PoW)](https://en.wikipedia.org/wiki/Proof_of_work)
 mechanism to guard against bots. In order for this to be effective, the
