@@ -25,3 +25,12 @@ knowledge with others. If everything was labeled intellectual property,
 we might still be stuck in Stone Age. The idea of intellectual property
 is alien to us. For this reason, all of our source code is freely
 available(both as in freedom and beers) at our [GitHub](https://github.com/mCaptcha).
+
+## People
+
+- **[Aravinth Mavniannan](https://batsense.net):**
+Author
+
+- **[Prof. Sibi Chakkaravarthy
+  Sethuraman](https://sibichakkaravarthy.github.io/):** Mentor and
+  Security Advisor
