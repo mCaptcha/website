@@ -11,6 +11,13 @@ images: []
 
 Come say hi at our [Matrix community](https://matrix.to/#/+mcaptcha:matrix.batsense.net)!
 
+## Fediverse handle
+
+
+We are on the Fediverse at
+[@mCapthca@batsense.net](https://gts.batsense.net/@mcaptcha), toot at
+us for queries and whatnot :)
+
 ## Official Twitter handle
 
 The project also has a twitter twitter presence at [@m_captcha(Nitter
