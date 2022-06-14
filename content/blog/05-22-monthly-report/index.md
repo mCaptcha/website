@@ -124,11 +124,11 @@ infrastructure of the experiment.
 
 mCaptcha underwent a major refactor during the month of May: We re-wrote
 and cleaned up all database-related stuff for higher flexibility
-flexibility and generally good architecture. This refactor lays the
-foundation for implementing support for alternate database software
+and generally good architecture. This refactor lays the foundation 
+for implementing support for alternate database software
 programs(we currently support PostgreSQL only).
 
-## mCapthca is now on the Fediverse
+## mCaptcha is now on the Fediverse
 
 We recently joined the Fediverse on a
 [GoToSocial](https://docs.gotosocial.org/) instance run by
@@ -136,7 +136,7 @@ We recently joined the Fediverse on a
 the Fediverse account.
 
 **Fediverse account:**
-[@mCapthca@batsense.net](https://gts.batsense.net/@mcaptcha)
+[@mCaptcha@batsense.net](https://gts.batsense.net/@mcaptcha)
 
 ## Generic hosting
 
@@ -151,12 +151,12 @@ adhere to the Hostea policies to operate
 under the Hostea umbrella --- essentially allowing for the creation of
 smaller, highly localised cooperatives.
 
-Cooperatives are interesting, and we believe that mCapthca, too, can
+Cooperatives are interesting, and we believe that mCaptcha, too, can
 benefit from such an architecture as it will prevent any one party from
 single-handedly sabotaging the project. The experience gained from
-Hostea will be reused in providing managed hosting for mCapthca.
+Hostea will be reused in providing managed hosting for mCaptcha.
 
-By the end of this year, mCapthca will reorganise into a horizontal
+By the end of this year, mCaptcha will reorganise into a horizontal
 community and adopt [radical transparency](https://en.wikipedia.org/wiki/Radical_transparency#Radical_corporate_transparency) to improve trust and
 reliability of the project
 
@@ -164,7 +164,7 @@ reliability of the project
 > now, so if someone is interested to help out do reach out and so that
 > we could do it sooner!
 
-In context of mCapthca, radical transparency will include all decisions
+In context of mCaptcha, radical transparency will include all decisions
 publicly made, funding and expenses publicly documented, and all
 collaborations, too, publicly documented. This of course doesn't imply
 that private, personally identifiable information(addresses and phone
