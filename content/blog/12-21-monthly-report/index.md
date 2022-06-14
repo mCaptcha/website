@@ -1,5 +1,5 @@
 ---
-title: "Decenber, 2021: Monthly Report"
+title: "December, 2021: Monthly Report"
 description: "New features, improved accessibility and software
 integrations"
 lead: "We are mCaptcha. We build kickass CAPTCHA systems that give (DDoS) attackers a run for their money. And we do all of this without tracking your users. Oh and did I mention our UX is great?"
