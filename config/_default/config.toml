@@ -58,9 +58,9 @@ rel  = "sitemap"
     guessSyntax = false
     hl_Lines = ""
     lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = false
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
     style = "dracula"
     tabWidth = 4
 
