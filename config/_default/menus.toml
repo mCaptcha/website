@@ -1,47 +1,61 @@
 [[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  name = "Introduction"
+  weight = 510
+  identifier = "Introduction"
+  url = "/docs/introduction/"
 
 [[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+  name = "Terminology"
+  weight = 520
+  identifier = "Terminology"
+  url = "/docs/terminology/"
 
+[[docs]]
+  name = "Self-Hosted"
+  weight = 530
+  identifier = "Self-Hosted"
+  url = "/docs/self-hosted/"
 
 [[docs]]
   name = "API"
-  weight = 50
+  weight = 550
   identifier = "API"
   url = "/docs/API/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-  weight = 10
+[[docs]]
+  name = "Help"
+  weight = 600
+  identifier = "Help"
+  url = "/docs/help/"
+
+
+######################## MAIN ##############################
 
 [[main]]
   name = "About"
   url = "/about/"
-  weight = 10
+  weight = 100
 
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Community"
   url = "/community/"
-  weight = 10
+  weight = 30
 
 [[main]]
   name = "Contact"
   url = "/contact/"
-  weight = 10
+  weight = 40
+
+[[main]]
+  name = "Docs"
+  url = "/docs/introduction/installing-captcha/"
+  weight = 500
 
 
 [[social]]
@@ -55,30 +69,30 @@
 [[footer]]
   name = "About"
   url = "/about/"
-  weight = 10
+  weight = 100
 
 [[footer]]
   name = "Donate"
   url = "/donate"
-  weight = 10
+  weight = 200
 
 [[footer]]
   name = "Privacy"
   url = "/privacy-policy/"
-  weight = 10
-
-[[footer]]
-  name = "Status"
-  url = "https://stats.uptimerobot.com/GK7VLFJnBl"
-  weight = 10
+  weight = 300
 
 [[footer]]
   name = "Security"
   url = "/security"
   identifier = "security"
-  weight = 10
+  weight = 400
+
+[[footer]]
+  name = "Status"
+  url = "https://stats.uptimerobot.com/GK7VLFJnBl"
+  weight = 500
 
 [[footer]]
   name = "Thanks"
   url = "/thanks"
-  weight = 10
+  weight = 600
