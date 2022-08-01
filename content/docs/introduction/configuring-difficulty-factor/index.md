@@ -17,15 +17,15 @@ toc: true
 
 mCaptcha is highly responsive to detecting DDoS attacks. Admins are
 advised to take advantage of it by setting low [difficulty
-factors](../../terminology/difficulty-factor) for normal traffic levels
+factors](/docs/terminology/difficulty-factor/) for normal traffic levels
 for their website.
 
 **Lowest advisable difficulty factor is 5000.**
 
 For instance, if it is normal for my website to get 2000 requests for
 every 30 seconds, I will set a [cool
-down](../../terminology/cooldown-period.md) period of 30 seconds and the
-first level of difficulty configuration will have a [visitor threshold](../../terminology/visitor-threshold.md) of 2000 with a
+down](/docs/terminology/cooldown-period) period of 30 seconds and the
+first level of difficulty configuration will have a [visitor threshold](/docs/terminology/visitor-threshold) of 2000 with a
 difficulty factor of 5000.
 
 There are two modes to setting difficulty factor for your website on

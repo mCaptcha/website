@@ -31,16 +31,16 @@ create an account. When ready, sign in.
 
 ## 2. Create new site key
 
-A [site key](../configuring-difficulty-factor/) is how a new CAPTCHA is configured within mCaptcha. To create
+A [site key](/docs/terminology/sitekey/) is how a new CAPTCHA is configured within mCaptcha. To create
 a new site key, click on "New Site" button in the dashboard.
 
 {{% img src="new-sitekey-btn.png" alt="mCaptcha dashboard with the 'new site key' button highlighted" %}}
 
 There are two options to create a new site key, easy and advanced. **We
 are going to use the easy mode in this tutorial.** If you are interested
-in learning more about the advance mode, please see [here](../configuring-difficulty-factor#advance-option).
+in learning more about the advance mode, please see [here](/docs/introduction/configuring-difficulty-factor/#advance-option).
 
-> ### [Easy Mode](../configuring-difficulty-factor#easy-option)
+> ### [Easy Mode](/docs/introduction/configuring-difficulty-factor/#easy-option)
 >
 > Easy mode asks a few basic statistics about your website and generates a
 > configuration that should work for your website. Currently, easy mode is
@@ -97,7 +97,7 @@ A full example is available
 
 ## 5. Configure backend to authenticate CAPTCHA tokens
 
-1. Get [access token](../../terminology/access-token) from the user's
+1. Get [access token](/docs/terminology/access-token) from the user's
    form submission payload. The access token will be associated with a
    parameter called `mcaptcha__token`.
 

@@ -27,6 +27,4 @@ go from 1 to 0.
 
 ## Easy Mode: Default cooldown
 
-When configuring mCaptcha in [easy
-mode](./difficulty-factor#easy-option), the default cooldown period is
-set to 30 seconds.
+When configuring mCaptcha in [easy Mode](/docs/introduction/configuring-difficulty-factor/#easy-option), the default cooldown period is set to 30 seconds.
