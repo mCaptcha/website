@@ -9,7 +9,7 @@ images: []
 
 ## Matrix Community
 
-Come say hi at our [Matrix community](https://matrix.to/#/+mcaptcha:matrix.batsense.net)!
+Come say hi at our [Matrix community](https://matrix.to/#/#mcaptcha:matrix.batsense.net)!
 
 ## Fediverse handle
 
