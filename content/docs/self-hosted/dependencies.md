@@ -1,5 +1,5 @@
 ---
-title: "Databse and cache"
+title: "Database and cache"
 description: "mCaptcha server requires dependencies like a Postgres
 database and a Redis cache"
 lead: "mCaptcha server requires dependencies like a Postgres
@@ -10,7 +10,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "self-hosted"
+    parent: "Self-Hosted"
 weight: 130
 toc: true
 ---
@@ -56,7 +56,7 @@ Download and run Postgres
 
 ```bash
 docker create --name mcaptcha-postgres \
-  -e POSTGRES_PASSWORD=<databse-password> \
+  -e POSTGRES_PASSWORD=<database-password> \
   -p 5432:5432 \
   postgres && docker start mcaptcha-postgres
 ```

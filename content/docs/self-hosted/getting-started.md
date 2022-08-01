@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "self-hosted"
+    parent: "Self-Hosted"
 weight: 100
 toc: true
 ---
