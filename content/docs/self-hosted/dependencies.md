@@ -11,7 +11,7 @@ images: []
 menu:
   docs:
     parent: "Self-Hosted"
-weight: 130
+weight: 534
 toc: true
 ---
 

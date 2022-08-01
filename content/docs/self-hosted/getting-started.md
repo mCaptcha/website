@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "Self-Hosted"
-weight: 100
+weight: 531
 toc: true
 ---
 
@@ -17,5 +17,5 @@ toc: true
 
 There are two main ways to self-host mCaptcha:
 
-1. Bare metal
-2. With Docker
+1. [Bare metal](./bare-metal.md)
+2. [With Docker](./docker.md)

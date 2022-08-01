@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "Self-Hosted"
-weight: 110
+weight: 533
 toc: true
 ---
 
