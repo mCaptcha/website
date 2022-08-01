@@ -1,7 +1,6 @@
 ---
-title: "Docker"
-description: "Deploy mCaptcha with docker"
-lead: "Deploy mCaptcha with docker"
+title: "Using Docker"
+description: "Deploy mCaptcha using docker"
 date: 2021-07-21 15:14
 lastmod: 2021-07-21 15:14
 draft: false
@@ -13,7 +12,7 @@ weight: 533
 toc: true
 ---
 
-## Docker
+## With Docker
 
 ### 1. Configure
 
