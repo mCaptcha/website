@@ -17,5 +17,5 @@ toc: true
 
 There are two main ways to self-host mCaptcha:
 
-1. [Bare metal](./bare-metal.md)
-2. [With Docker](./docker.md)
+1. [Bare metal](./bare-metal)
+2. [With Docker](./docker)
