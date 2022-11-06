@@ -46,6 +46,6 @@ jobs:
           publish_branch: "mcaptcha-io-pages"
 
       - name: deploy
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' &&  github.repository == 'mCaptcha/website' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/mcaptcha.io' &&  github.repository == 'mCaptcha/website' }}
         run: >-
           curl --location --request POST "https://deploy.batsense.net/api/v1/update" --header 'Content-Type: application/json' --data-raw "{ \"secret\": \"${{ secrets.DEPLOY_TOKEN_MCAPTCHA_IO }}\", \"branch\": \"mcaptcha-io-pages\" }"
