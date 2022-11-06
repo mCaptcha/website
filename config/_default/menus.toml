@@ -86,13 +86,23 @@
   url = "/security"
   identifier = "security"
   weight = 400
-
 [[footer]]
   name = "Status"
   url = "https://stats.uptimerobot.com/GK7VLFJnBl"
   weight = 500
 
+
+[[footer]]
+  name = "Support"
+  url = "/support/"
+  weight = 600
+
 [[footer]]
   name = "Thanks"
   url = "/thanks"
-  weight = 600
+  weight = 700
+
+[[footer]]
+  name = "ToS"
+  url = "/tos"
+  weight = 800
