@@ -1,0 +1,214 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><link rel=stylesheet href=/main.f4e82f75f039986a07346a99687f11e3218d588abe9b9daa7d0673b1a7aaee5b689ec69619c26a2962d5a124bed33807d58bd84180c249bbb8eddc33c5ef5baa.css integrity="sha512-9OgvdfA5mGoHNGqZaH8R4yGNWIq+m52qfQZzsaeq7ltonsaWGcJqKWLVoSS+0zgH1YvYQYDCSbu47dwzxe9bqg==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Security - mCaptcha</title><meta name=description content="mCaptcha security policies."><link rel=canonical href=/security/><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="/icon.png"><meta name=twitter:title content="Security"><meta name=twitter:description content="mCaptcha security policies."><meta name=twitter:site content="@"><meta name=twitter:creator content="@"><meta property="og:title" content="Security"><meta property="og:description" content="mCaptcha security policies."><meta property="og:type" content="article"><meta property="og:url" content="/security/"><meta property="og:image" content="/icon.png"><meta property="article:published_time" content="2021-03-10T00:00:00+00:00"><meta property="article:modified_time" content="2021-05-27T19:15:04+05:30"><meta property="og:site_name" content="mCaptcha"><meta property="article:publisher" content="https://www.facebook.com/"><meta property="article:author" content="https://www.facebook.com/"><meta property="og:locale" content="en_US"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"\/"},{"@type":"ListItem","position":2,"name":"Security","item":"\/security\/"}]}</script><meta name=theme-color content="#fff"><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest></head><body class="page single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" type=checkbox id=menu-btn>
+<label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 me-auto" href=/>mCaptcha</a>
+<button id=mode class="btn btn-link order-2 order-md-4" type=button aria-label="Toggle mode">
+<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button><ul class="navbar-nav social-nav order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/mCaptcha><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><span class="ms-2 visually-hidden">GitHub</span></a></li></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class=nav-item><a class=nav-link href=/blog/>Blog</a></li><li class=nav-item><a class=nav-link href=/community/>Community</a></li><li class=nav-item><a class=nav-link href=/contact/>Contact</a></li><li class=nav-item><a class=nav-link href=/about/>About</a></li><li class=nav-item><a class=nav-link href=/docs/introduction/installing-captcha/>Docs</a></li></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input id=userinput class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded"></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#rules>Rules:</a><ul><li><a href=#before-you-start>Before you start</a></li><li><a href=#performing-your-research>Performing your research</a></li><li><a href=#handling-personally-identifiable-information-pii>Handling personally identifiable information (PII)</a></li><li><a href=#reporting-your-vulnerability>Reporting your vulnerability</a></li><li><a href=#legal-safe-harbor>Legal safe harbor:</a></li></ul></li><li><a href=#scope>Scope:</a><ul><li><a href=#mcaptchaorg>mcaptcha.org</a></li><li><a href=#mcaptchaio>mcaptcha.io</a></li></ul></li><li><a href=#contact>Contact</a><ul><li><a href=#email>Email</a></li><li><a href=#gpg-key>GPG Key</a></li></ul></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Security</h1><p><small>Last Edited May 27, 2021</small><p><p class=lead></p><p>Security is at the heart of mCaptcha. If you find any discrepancies in
+our software(see listing on our <a href=https://github.com/mCaptcha>GitHub</a>,
+<a href=#scope>services available</a>)</p><h2 id=rules>Rules:<a href=#rules class=anchor aria-hidden=true>#</a></h2><h3 id=before-you-start>Before you start<a href=#before-you-start class=anchor aria-hidden=true>#</a></h3><ul><li><p>Check the list of domains that are in scope for security research
+and the list of targets for useful information for getting started.</p></li><li><p>Check the list of bugs that have been classified as ineligible.</p></li><li><p>Check our changelog(in our GitHub repositories) for recently launched
+features.</p></li><li><p>Never attempt non-technical attacks such as social engineering,
+phishing, or physical attacks against our employees, users, or
+infrastructure.</p></li></ul><p>When in doubt, contact
+me(<a href=/contributors/aravinth-manivannan/>@realaravinth</a>) at
+<a href=mailto:realaravinth@batsense.net>realaravinth@batense.net</a>.</p><h3 id=performing-your-research>Performing your research<a href=#performing-your-research class=anchor aria-hidden=true>#</a></h3><ul><li><p>Do not impact other users with your testing, this includes testing
+vulnerabilities with CAPTCHA credentials and account credentials
+of accounts you do not own. If you are attempting to find an
+authorization bypass, you must use accounts you own.</p></li><li><p>The following are never allowed for research. We may
+suspend your mCaptcha account for:</p><ul><li><p>Performing distributed denial of service (DDoS) or other volumetric
+attacks. Sure, we are a DDoS protection organisation, but with sufficient
+resources and motivation, it is possible to take us down. For this
+reason, we request you to not hurt us.</p></li><li><p>Spamming content Large-scale vulnerability scanners, scrapers, or
+automated tools which produce excessive amounts of traffic.</p><p>Note: We do allow the use of automated tools so long as they do
+not produce excessive amounts of traffic. For example, running
+one nmap scan against one host is allowed, but sending 65,000
+requests in two minutes using Burp Suite Intruder is excessive.</p></li></ul></li><li><p>Researching denial-of-service attacks is allowed only if you follow
+these rules:</p><ul><li><p>There are no limits for researching denial of service
+vulnerabilities against your own instance of mCaptcha server. <strong>We
+strongly recommend/prefer this method for researching denial of
+service issues.</strong></p></li><li><p>If you choose to test on mCaptcha proper (i.e.
+<a href=https://mcaptcha.org>https://mcaptcha.org</a> or <a href=https://mcaptcha.io>https://mcaptcha.io</a>):</p><ul><li>Research must be performed using credentials you own.</li><li>Stop immediately if you believe you have affected the
+availability of our services. Don’t worry about demonstrating
+the full impact of your vulnerability, our team
+will be able to determine the impact.</li></ul></li></ul></li></ul><h3 id=handling-personally-identifiable-information-pii>Handling personally identifiable information (PII)<a href=#handling-personally-identifiable-information-pii class=anchor aria-hidden=true>#</a></h3><ul><li><p>Personally identifying information (PII) includes:</p><ul><li>legal and/or full names</li><li>names or usernames combined with other identifiers like phone numbers or email addresses</li><li>health or financial information (including insurance information, social security numbers, etc.)</li><li>information about political or religious affiliations</li><li>information about race, ethnicity, sexual orientation, gender, or other identifying information that could be used for discriminatory purposes</li></ul></li><li><p>Do not intentionally access others’ PII. If you suspect a service
+provides access to PII, limit queries to your own personal
+information.</p></li><li><p>Report the vulnerability immediately and do not attempt to access any
+other data. We will assess the scope and impact of the PII exposure.</p></li><li><p>Limit the amount of data returned from services. For SQL injection,
+for example, limit the number of rows returned</p></li><li><p>You must delete all your local, stored, or cached copies of data
+containing PII as soon as possible. We may ask you to sign a
+certificate of deletion and confidentiality agreement regarding the
+exact information you accessed. We may ask you for the usernames and
+IP addresses used during your testing to assess the impact of the
+vulnerability.</p></li></ul><h3 id=reporting-your-vulnerability>Reporting your vulnerability<a href=#reporting-your-vulnerability class=anchor aria-hidden=true>#</a></h3><ul><li><p>Reports must include written instructions for reproducing the
+vulnerability.</p></li><li><p>When reporting vulnerabilities you must keep all information on
+restricted to email correspondence with us(<a href=#contact>see below for
+contact</a>). If you believe the bug to be critical, please use
+encryption.</p></li><li><p>Do not post information to
+video-sharing or pastebin sites.</p></li><li><p>For vulnerabilities involving personally identifiable information,
+please explain the kind of PII you believe is exposed and limit the
+amount of PII data included in your bug report. For textual
+information and screenshots, please only include redacted data in your
+bug report.</p></li><li><p>During the course of an investigation, it may take time to resolve
+the issue you have reported. We ask that you refrain from publicly
+disclosing details regarding an issue you’ve reported until the fix has
+been publicly made available.</p></li></ul><h3 id=legal-safe-harbor>Legal safe harbor:<a href=#legal-safe-harbor class=anchor aria-hidden=true>#</a></h3><p>We currently don&rsquo;t have any legal policies in place but rest assured
+that as long as your research adheres to the above rules, your security
+research and vulnerability disclosure activities are considered as
+&ldquo;authorized&rdquo;.</p><p>A detailed policy based on this sentiment is in the works.</p><h2 id=scope>Scope:<a href=#scope class=anchor aria-hidden=true>#</a></h2><p>mCaptcha runs a number of services. Only domains listed below are are
+eligible for security research. Any mCaptcha-owned domains not listed
+below are <em>not</em> in scope and are <em>not</em> covered by our <a href=./#legal-safe-harbor>legal safe
+harbor</a></p><h3 id=mcaptchaorg>mcaptcha.org<a href=#mcaptchaorg class=anchor aria-hidden=true>#</a></h3><ul><li>mcaptcha.org</li><li>demo.mcaptcha.org</li><li>demo2.mcaptcha.org</li></ul><h3 id=mcaptchaio>mcaptcha.io<a href=#mcaptchaio class=anchor aria-hidden=true>#</a></h3><ul><li>mcaptcha.io</li></ul><h2 id=contact>Contact<a href=#contact class=anchor aria-hidden=true>#</a></h2><h3 id=email>Email<a href=#email class=anchor aria-hidden=true>#</a></h3><p><a href=mailto:realaravinth@batsense.net>realaravinth@batense.net</a>.</p><h3 id=gpg-key>GPG Key<a href=#gpg-key class=anchor aria-hidden=true>#</a></h3><p><a href=/aravinth.asc>Click here to download key</a></p><pre><code class=language-GPG data-lang=GPG>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=gpUQ
+-----END PGP PUBLIC KEY BLOCK-----
+</code></pre><p class=edit-page><a href=https://github.com/mCaptcha/website/blob/master/content/security/index.md><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828.0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>Edit this page on GitHub</a></p></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://gohugo.io/>Hugo</a>, and <a href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item><a href=/about/>About</a></li><li class=list-inline-item><a href=/donate>Donate</a></li><li class=list-inline-item><a href=/privacy-policy/>Privacy</a></li><li class=list-inline-item><a href=/security>Security</a></li><li class=list-inline-item><a href=https://stats.uptimerobot.com/GK7VLFJnBl>Status</a></li><li class=list-inline-item><a href=/support/>Support</a></li><li class=list-inline-item><a href=/thanks>Thanks</a></li><li class=list-inline-item><a href=/tos>ToS</a></li></ul></div></div></div></footer><script src=/main.min.993b2b4c58b07e7a4bb3423cf18ccd78a85d0063680c0fc9bf6d9cc02be98e08793034d984dd8f7c60ad5b70f3186cc8bc280b1077b7e37c2d64f36f118099bb.js integrity="sha512-mTsrTFiwfnpLs0I88YzNeKhdAGNoDA/Jv22cwCvpjgh5MDTZhN2PfGCtW3DzGGzIvCgLEHe343wtZPNvEYCZuw==" crossorigin=anonymous defer></script><script src=/index.min.7d5d1ca710ea94116971c4f9b5d605926d6787458c6db6a8692e7e43552c36a15900b49fcf046f4201b11961d77342063a73a6d585b7ca1c6ea1efbbb157e8b4.js integrity="sha512-fV0cpxDqlBFpccT5tdYFkm1nh0WMbbaoaS5+Q1UsNqFZALSfzwRvQgGxGWHXc0IGOnOm1YW3yhxuoe+7sVfotA==" crossorigin=anonymous defer></script></body></html>
