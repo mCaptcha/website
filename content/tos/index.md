@@ -18,10 +18,6 @@ Please see here for [support](/support) information.
 
 Please see here for [security](/security) information.
 
-## GDPR compliance
-
-Please see here for [GDPR compliance](/privacy-policy#gdpr-compliance).
-
 ## No Questions Asked Cancellation and Refund Policy
 
 Full refund of purchases available for up to 15 days from the date of

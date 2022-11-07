@@ -33,16 +33,12 @@ The following information is collected:
 - **Browser**. We use this to reproduce browser-specific bugs people
   see. This is derived from the User-Agent HTTP header. For example: _Chrome_.
 
-## GDPR compliance
+## Contact us
 
 A user can request deletion or anonymisation of the data they are unable
 to delete themselves by sending a request to support@mcaptcha.io.
 
 A user can request an copy of the data held by mCaptcha that they are unable
 to download themselves by sending a request to support@mcaptcha.io.
-
-## Contact us
-
-[Contact us]({{< ref "contact/index.md" >}}) if you have any questions.
 
 Effective Date: _20th May, 2021_
